@@ -34,5 +34,13 @@ namespace LogAn.UnitTests
          
             Assert.That(actual, Is.EqualTo(expected));
         }
+
+        //[Test]
+        //public void IsValidFileName_EmptyFileName_Throws()
+        //{
+        //    Exception? ex = Assert.Catch<Exception>(() => m_analyzer.IsValidLogFileName(""));
+
+        //    StringAssert.Contains("filename has to be provided", ex.Message);
+        //}
     }
 }
